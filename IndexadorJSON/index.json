@@ -1,0 +1,37 @@
+[
+    {
+        "Numero": 1,
+        "Nombre": "git-bash",
+        "Extension": ".exe"
+    },
+    {
+        "Numero": 2,
+        "Nombre": "git-cmd",
+        "Extension": ".exe"
+    },
+    {
+        "Numero": 3,
+        "Nombre": "LICENSE",
+        "Extension": ".txt"
+    },
+    {
+        "Numero": 4,
+        "Nombre": "ReleaseNotes",
+        "Extension": ".html"
+    },
+    {
+        "Numero": 5,
+        "Nombre": "unins000",
+        "Extension": ".dat"
+    },
+    {
+        "Numero": 6,
+        "Nombre": "unins000",
+        "Extension": ".exe"
+    },
+    {
+        "Numero": 7,
+        "Nombre": "unins000",
+        "Extension": ".msg"
+    }
+]

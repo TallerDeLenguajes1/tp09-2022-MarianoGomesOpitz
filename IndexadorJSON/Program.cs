@@ -47,21 +47,23 @@ namespace IndexadorJSON // Note: actual namespace depends on the project name.
                     i++;
                 }
 
-                var escribir = new StreamWriter(File.Open("../index.json", FileMode.Create));
+                var escribir = new StreamWriter(File.Open("index.json", FileMode.Create));
                 string arc = JsonSerializer.Serialize(nombres);
                 escribir.WriteLine(arc);
 
                 escribir.Close();
 
-                string texto = File.ReadAllText("../index.json");
-Console.WriteLine(texto);
-                
+
+                string texto = File.ReadAllText("index.json");
+
+                Console.WriteLine(texto);
+
                 var mostrar = JsonSerializer.Deserialize<List<IndexArchivos>>(texto);
 
                 Console.WriteLine("\nArchivos insertados en index.json:\n");
                 foreach (var item in mostrar)
                 {
-                    
+
                     Console.WriteLine("{0}, {1}, {2}", item.Numero.ToString(), item.Nombre, item.Extension);
                 }
 

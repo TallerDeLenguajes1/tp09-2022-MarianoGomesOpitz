@@ -15,11 +15,17 @@ namespace IndexadorJSON
         public string Nombre { get => nombre; set => nombre = value; }
         public string Extension { get => extension; set => extension = value; }
 
+
         public IndexArchivos(int num, string name, string ext)
         {
             numero = num;
             nombre = name;
             extension = ext;
+        }
+
+        public IndexArchivos()
+        {
+
         }
     }
 
