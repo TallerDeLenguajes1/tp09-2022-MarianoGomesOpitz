@@ -1,0 +1,32 @@
+[
+    {
+        "Nombre": "Gaseosa",
+        "FechaVencimiento": "2025-07-23T10:38:41",
+        "Precio": 3320,
+        "Tamanio": "Chico"
+    },
+    {
+        "Nombre": "Fideos",
+        "FechaVencimiento": "2023-11-01T00:46:25",
+        "Precio": 2761,
+        "Tamanio": "Chico"
+    },
+    {
+        "Nombre": "Gaseosa",
+        "FechaVencimiento": "2024-05-28T01:49:09",
+        "Precio": 3315,
+        "Tamanio": "Grande"
+    },
+    {
+        "Nombre": "Jam\u00F3n",
+        "FechaVencimiento": "2032-05-16T01:25:56",
+        "Precio": 3729,
+        "Tamanio": "Chico"
+    },
+    {
+        "Nombre": "Jam\u00F3n",
+        "FechaVencimiento": "2022-01-14T17:14:46",
+        "Precio": 4362,
+        "Tamanio": "Grande"
+    }
+]
